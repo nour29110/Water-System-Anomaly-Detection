@@ -86,5 +86,4 @@ To evaluate model performance, the following metrics were used:
 | CNN            | 0.19   | 0.19    | 1.0 | 0.33   |
 
 ## Acknowledgments
-- Special thanks to the research team for providing guidance and the dataset.
-- This project is part of an ongoing effort to improve the security of critical infrastructure systems.
+- Special thanks to the research team for providing guidance.
