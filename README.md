@@ -8,7 +8,7 @@ The following models were developed and evaluated in this project:
 - **Convolutional Neural Networks (CNN):**
   Convolutional Neural Networks are designed to process data with grid-like topology, such as images or time-series data. In this project, the CNN struggled with detecting anomalies due to its limited ability to capture long-term dependencies in time-series data.
 
-  ![CNN Model Image]([#](https://github.com/nour29110/Water-System-Anomaly-Detection-/blob/main/Images/CNN.png))
+  ![CNN Model Image](https://github.com/nour29110/Water-System-Anomaly-Detection-/blob/main/Images/CNN.png)
 
 - **Long Short-Term Memory Networks (LSTM):**
   LSTMs are a type of Recurrent Neural Network (RNN) capable of learning long-term dependencies, making them ideal for time-series data. This model achieved the best performance in the project by leveraging the temporal structure of the dataset.
