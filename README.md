@@ -33,7 +33,7 @@ The following models were developed and evaluated in this project:
 - **Transformers:**
   Transformers, originally designed for natural language processing, use attention mechanisms to weigh input features dynamically. While innovative, their performance in this anomaly detection task was not as strong as the LSTM.
 
-  ![Transformer Model Image](https://github.com/nour29110/Water-System-Anomaly-Detection-/blob/main/Images/Transformers.png)
+  <img src="https://github.com/nour29110/Water-System-Anomaly-Detection-/blob/main/Images/Transformers.png" alt="Transformer Model Image" width="600" height="400">
 
 ## Key Features
 ### 1. Dataset Characteristics
