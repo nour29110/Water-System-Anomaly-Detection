@@ -13,12 +13,12 @@ The following models were developed and evaluated in this project:
 - **Long Short-Term Memory Networks (LSTM):**
   LSTMs are a type of Recurrent Neural Network (RNN) capable of learning long-term dependencies, making them ideal for time-series data. This model achieved the best performance in the project by leveraging the temporal structure of the dataset.
 
-  ![LSTM Model Image](https://github.com/nour29110/Water-System-Anomaly-Detection-/blob/main/Images/LSTM.png)
-
+  <img src="https://github.com/nour29110/Water-System-Anomaly-Detection-/blob/main/Images/LSTM.png" alt="LSTM Model Image" width="500" height="300">
+  
 - **Autoencoders:**
   Autoencoders are unsupervised neural networks used to learn efficient representations of input data. They are often employed in anomaly detection by comparing reconstructed inputs to the original ones. The performance was average in this project.
 
-  ![Autoencoder Model Image](https://github.com/nour29110/Water-System-Anomaly-Detection-/blob/main/Images/Autoencoders.png)
+  <img src="https://github.com/nour29110/Water-System-Anomaly-Detection-/blob/main/Images/Autoencoders.png" alt="Autoencoder Model Image" width="550" height="350">
 
 - **Random Forest:**
   Random Forest is an ensemble learning method that operates by constructing multiple decision trees and outputting the majority class prediction. It showed moderate performance in detecting anomalies.
