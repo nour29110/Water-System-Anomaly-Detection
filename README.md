@@ -72,18 +72,17 @@ To evaluate model performance, the following metrics were used:
 
 ### 4. Model Performance Summary
 - **LSTM:** Achieved the highest accuracy and best overall performance by leveraging time-series data.
-- **CNN:** Struggled the most in capturing patterns, likely due to its architectural limitations for time-series analysis.
 
 ## Results
 ### Performance Comparison
 | Model          | Accuracy | Precision | Recall | F1-Score |
 |----------------|----------|-----------|--------|----------|
-| LSTM           | 0.96  | 0.95      | 0.90   | 0.92     |
-| Transformers   | 0.67     | 0.26      | 0.35   | 0.30     |
-| Autoencoders   | 0.26  | 0.17   | 0.73| 0.28  |
+| LSTM           | 0.97  | 0.97      | 0.94   | 0.95     |
+| Transformers   | 0.71     | 0.31      | 0.37   | 0.34     |
+| Autoencoders   | 0.33  | 0.20   | 0.79| 0.31  |
 | Random Forest  | 0.49  | 0.18   | 0.47| 0.26  |
 | SVM            | 0.29      | 0.18       | 0.72    | 0.28      |
-| CNN            | 0.19   | 0.19    | 1.0 | 0.33   |
+| CNN            | 0.42   | 0.22    | 0.76 | 0.34   |
 
 ## Acknowledgments
 - Special thanks to the research team for providing guidance.
