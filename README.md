@@ -5,6 +5,11 @@ This repository contains the implementation of various machine learning models u
 ## Models Implemented
 The following models were developed and evaluated in this project:
 
+- **Graph Convolutional Networks (GCN):**
+  GCNs were implemented to leverage the graph structure of the dataset, capturing relationships between different sensor readings over time. Three configurations were tested with 10, 20, and 31 nodes, progressively increasing the granularity of the graph representation. Each configuration achieved consistently high performance, demonstrating the model's strong ability to detect anomalies in the water system. The results indicate that even with a relatively small number of nodes, the GCN effectively captured spatial dependencies and provided robust anomaly detection capabilities. The False Alarm Rate was 0.0.
+  
+  ![GNN Model Image](https://github.com/nour29110/Water-System-Anomaly-Detection/blob/main/Models/GNN/Nodes_GNN.pdf)
+  
 - **Convolutional Neural Networks (CNN):**
   Convolutional Neural Networks are designed to process data with grid-like topology, such as images or time-series data. In this project, the CNN struggled with detecting anomalies due to its limited ability to capture long-term dependencies in time-series data.
 
@@ -78,6 +83,7 @@ To evaluate model performance, the following metrics were used:
 | Model          | Accuracy | Precision | Recall | F1-Score |
 |----------------|----------|-----------|--------|----------|
 | LSTM           | 0.97  | 0.97      | 0.94   | 0.95     |
+| GCN (31 nodes) | 0.96  | 1.0       | 0.85   | 0.92
 | Transformers   | 0.71     | 0.31      | 0.37   | 0.34     |
 | Autoencoders   | 0.33  | 0.20   | 0.79| 0.31  |
 | Random Forest  | 0.49  | 0.18   | 0.47| 0.26  |
