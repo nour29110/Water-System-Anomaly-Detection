@@ -8,7 +8,7 @@ The following models were developed and evaluated in this project:
 - **Graph Convolutional Networks (GCN):**
   GCNs were implemented to leverage the graph structure of the dataset, capturing relationships between different sensor readings over time. Three configurations were tested with 10, 20, and 31 nodes, progressively increasing the granularity of the graph representation. Each configuration achieved consistently high performance, demonstrating the model's strong ability to detect anomalies in the water system. The results indicate that even with a relatively small number of nodes, the GCN effectively captured spatial dependencies and provided robust anomaly detection capabilities. The False Alarm Rate was 0.0.
 
-  <img src="https://github.com/nour29110/Water-System-Anomaly-Detection/blob/main/Images/GNN.png" alt="LSTM Model Image" width="500" height="300">
+  <img src="https://github.com/nour29110/Water-System-Anomaly-Detection/blob/main/Images/GNN.png" alt="LSTM Model Image" width="650" height="400">
   
 - **Convolutional Neural Networks (CNN):**
   Convolutional Neural Networks are designed to process data with grid-like topology, such as images or time-series data. In this project, the CNN struggled with detecting anomalies due to its limited ability to capture long-term dependencies in time-series data.
